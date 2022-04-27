@@ -1,6 +1,6 @@
-name: "Pull Target Files from Applanga"
+name: "Pull Target Files from Applanga (Workflow Trigger)"
 on:
-  repository_dispatch:
+  workflow_dispatch:
     types: [applanga-pull]
 jobs:
   pull-translation-in:
@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.event.client_payload.branchName }}
           path: 'checkout'
       - uses: applanga/setup-applanga-cli@v1.0.1
         with:
