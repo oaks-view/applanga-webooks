@@ -2,7 +2,7 @@ name: "Push Source Files to Applanga"
 on:
  push:
    branches:
-     - master
+     - main
    paths:
      - react_json_sample/en/*.json
    
@@ -10,14 +10,15 @@ jobs:
   push-sources-for-translation:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           path: 'checkout'
-      - uses: applanga/setup-applanga-cli@v1.0.1
+      - uses: applanga/setup-applanga-cli@v1.0.2
         with:
-          version: 1.0.48
+          version: 1.0.75
       - name: Push Sources to Applanga
         env: 
          APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
         run: applanga push --force
         working-directory: checkout
+        
