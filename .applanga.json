@@ -5,9 +5,9 @@
             "source": [
                 {
                     "language": "en",
-                    "file_format": "go_i18n_json",
+                    "file_format": "gettext_pot",
                     "path": "applanga-webooks",
-                    "tag": "app:language.json"
+                    "tag": "app:language.po"
                 }
             ]
         },
@@ -17,9 +17,9 @@
                     "exclude_languages": [
                         "en"
                     ],
-                    "file_format": "go_i18n_json",
+                    "file_format": "gettext_pot",
                     "path": "applanga-webooks/<language>.json",
-                    "tag": "app:language.json"
+                    "tag": "app:language.po"
                 }
             ]
         }
