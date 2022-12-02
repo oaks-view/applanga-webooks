@@ -20,9 +20,7 @@ jobs:
         uses: peter-evans/create-pull-request@v4.2.0
         with:
           branch: newTranslations
-          author: >-
-            github-actions[bot]
-            <41898282+github-actions[bot]@users.noreply.github.com>
+          author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
           commit-message: Updated translations
           title: Updated translations
           body: Pulled in new translations from Applanga portal
