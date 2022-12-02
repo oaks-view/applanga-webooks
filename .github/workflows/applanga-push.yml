@@ -4,7 +4,7 @@ on:
     branches:
       - master
     paths:
-      - applanga-webooks
+      - applanga-webooks/.applanga.json
 jobs:
   push-sources-for-translation:
     runs-on: ubuntu-latest
