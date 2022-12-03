@@ -5,21 +5,9 @@
             "source": [
                 {
                     "language": "en",
-                    "file_format": "gettext_po",
-                    "path": "",
-                    "tag": "app:language.po"
-                },
-                {
-                    "language": "en",
-                    "file_format": "gettext_po",
+                    "file_format": "chrome_i18n_json",
                     "path": ".react_json_sample/en",
-                    "tag": "app:language:2428.po"
-                },
-                {
-                    "language": "en",
-                    "file_format": "gettext_po",
-                    "path": "react_json_sample/es",
-                    "tag": "app:language:2155.po"
+                    "tag": "app:messages.json"
                 }
             ]
         },
@@ -29,25 +17,9 @@
                     "exclude_languages": [
                         "en"
                     ],
-                    "file_format": "gettext_po",
-                    "path": "/<language>.json",
-                    "tag": "app:language.po"
-                },
-                {
-                    "exclude_languages": [
-                        "en"
-                    ],
-                    "file_format": "gettext_po",
+                    "file_format": "chrome_i18n_json",
                     "path": ".react_json_sample/en/<language>.json",
-                    "tag": "app:language:2428.po"
-                },
-                {
-                    "exclude_languages": [
-                        "en"
-                    ],
-                    "file_format": "gettext_po",
-                    "path": "react_json_sample/es/<language>.json",
-                    "tag": "app:language:2155.po"
+                    "tag": "app:messages.json"
                 }
             ]
         }
