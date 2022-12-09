@@ -5,9 +5,9 @@
             "source": [
                 {
                     "language": "en",
-                    "file_format": "gettext_pot",
-                    "path": "",
-                    "tag": "app:language.po"
+                    "file_format": "go_i18n_json",
+                    "path": ".react_json_sample/en",
+                    "tag": "app:language.json"
                 }
             ]
         },
@@ -17,9 +17,9 @@
                     "exclude_languages": [
                         "en"
                     ],
-                    "file_format": "gettext_pot",
-                    "path": "/<language>.json",
-                    "tag": "app:language.po"
+                    "file_format": "go_i18n_json",
+                    "path": ".react_json_sample/en/<language>.json",
+                    "tag": "app:language.json"
                 }
             ]
         }
