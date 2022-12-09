@@ -4,7 +4,7 @@ on:
     branches:
       - master
     paths:
-      - .applanga.json
+      - .react_json_sample/en/translations.json
   workflow_dispatch: null
 jobs:
   push-sources-for-translation:
