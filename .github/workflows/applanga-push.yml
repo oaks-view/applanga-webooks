@@ -8,6 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       push_targets:
+        type: boolean
         description: Push translation files. If set translation files will be pushed instead of source files
         default: false
         required: false
