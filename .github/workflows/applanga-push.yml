@@ -5,6 +5,7 @@ on:
       - master
     paths:
       - .react_json_sample/en/translations.json
+  workflow_dispatch: null
 jobs:
   push-sources-for-translation:
     runs-on: ubuntu-latest
