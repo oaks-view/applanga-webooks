@@ -5,9 +5,9 @@
       "source": [
         {
           "language": "en",
-          "file_format": "angular_translate_json",
-          "path": "/.applanga.json",
-          "tag": "app:language:5411.json"
+          "file_format": "chrome_i18n_json",
+          "path": ".react_json_sample/en/translations.json",
+          "tag": "app:messages.json"
         }
       ]
     },
@@ -17,9 +17,9 @@
           "exclude_languages": [
             "en"
           ],
-          "file_format": "angular_translate_json",
-          "path": "ruthless.json",
-          "tag": "app:language:5411.json"
+          "file_format": "chrome_i18n_json",
+          "path": ".react_json_sample/en/<language>.json",
+          "tag": "app:messages.json"
         }
       ]
     }
