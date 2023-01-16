@@ -5,9 +5,9 @@
       "source": [
         {
           "language": "en",
-          "file_format": "nested_json",
+          "file_format": "go_i18n_json",
           "path": ".react_json_sample/en/translations.json",
-          "tag": "app:language:9451.json"
+          "tag": "app:language:8989.json"
         }
       ]
     },
@@ -17,9 +17,9 @@
           "exclude_languages": [
             "en"
           ],
-          "file_format": "nested_json",
+          "file_format": "go_i18n_json",
           "path": ".react_json_sample/en/<language>.json",
-          "tag": "app:language:9451.json"
+          "tag": "app:language:8989.json"
         }
       ]
     }
