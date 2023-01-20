@@ -1,4 +1,7 @@
 {
-    "one": "zwei",
-    "two": "eins"
+  "one": "zwei",
+  "two": "eins zwei",
+  "three": "Teck",
+  "github1": "Webhook 1",
+  "github2": "Webhook 2"
 }
