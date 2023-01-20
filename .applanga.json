@@ -7,7 +7,7 @@
           "language": "en",
           "file_format": "nested_json",
           "path": ".react_json_sample/en/translations.json",
-          "tag": "app:language.json"
+          "tag": "app:language:XXXXX.json"
         }
       ]
     },
@@ -18,8 +18,8 @@
             "en"
           ],
           "file_format": "nested_json",
-          "path": ".react_json_sample/en/<language>.json",
-          "tag": "app:language.json"
+          "path": "react_json_sample/<language>.json",
+          "tag": "app:language:XXXXX.json"
         }
       ]
     }
