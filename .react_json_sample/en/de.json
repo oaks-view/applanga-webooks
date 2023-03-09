@@ -1,4 +1,17 @@
-{
-    "i_am_hot": "ich bin heiz",
-    "i am cold": "ich bin kalt"
-}
+[
+  {
+    "id": "test",
+    "translation": {
+      "one": "eins",
+      "few": "Mangel"
+    }
+  },
+  {
+    "id": "don't",
+    "translation": "Ich bin nicht in der Stimmung"
+  },
+  {
+    "id": "party",
+    "translation": "Ich möchte eine Party feiern"
+  }
+]
