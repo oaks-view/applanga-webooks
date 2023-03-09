@@ -5,9 +5,9 @@
       "source": [
         {
           "language": "en",
-          "file_format": "nested_json",
+          "file_format": "go_i18n_json",
           "path": "./.react_json_sample/en/translations.json",
-          "tag": "app:language:4843.json"
+          "tag": "app:language:6420.json"
         }
       ]
     },
@@ -17,9 +17,9 @@
           "exclude_languages": [
             "en"
           ],
-          "file_format": "nested_json",
-          "path": "applanga-webooks/react_json_sample/<language>.json",
-          "tag": "app:language:4843.json"
+          "file_format": "go_i18n_json",
+          "path": "./.react_json_sample/en/<language>.json",
+          "tag": "app:language:6420.json"
         }
       ]
     }
