@@ -6,6 +6,18 @@
         {
           "language": "en-US",
           "file_format": "react_nested_json",
+          "path": "./.react_json_sample/en/de.json",
+          "tag": "app:language.json"
+        },
+        {
+          "language": "en-US",
+          "file_format": "react_nested_json",
+          "path": "./.react_json_sample/en/es.json",
+          "tag": "app:language.json"
+        },
+        {
+          "language": "en-US",
+          "file_format": "react_nested_json",
           "path": "./.react_json_sample/en/translations.json",
           "tag": "app:language.json"
         }
@@ -13,6 +25,22 @@
     },
     "pull": {
       "target": [
+        {
+          "exclude_languages": [
+            "en-US"
+          ],
+          "file_format": "react_nested_json",
+          "path": "./.react_json_sample/en/<language>.json",
+          "tag": "app:language.json"
+        },
+        {
+          "exclude_languages": [
+            "en-US"
+          ],
+          "file_format": "react_nested_json",
+          "path": "./.react_json_sample/en/<language>.json",
+          "tag": "app:language.json"
+        },
         {
           "exclude_languages": [
             "en-US"
