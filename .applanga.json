@@ -5,9 +5,9 @@
       "source": [
         {
           "language": "en",
-          "file_format": "nested_json",
+          "file_format": "react_nested_json",
           "path": "./.react_json_sample/en/translations.json",
-          "tag": "github-demo-tag"
+          "tag": "app:language.json"
         }
       ]
     },
@@ -17,9 +17,9 @@
           "exclude_languages": [
             "en"
           ],
-          "file_format": "nested_json",
-          "path": "./react_json_sample/<language>/translation.json",
-          "tag": "github-demo-tag"
+          "file_format": "react_nested_json",
+          "path": "./.react_json_sample/en/<language>.json",
+          "tag": "app:language.json"
         }
       ]
     }
