@@ -10,7 +10,7 @@ jobs:
           path: checkout
       - uses: applanga/setup-applanga-cli@AL-6517-cli-wildcard-versions
         with:
-          version: '*'
+          version: 1.0.*
       - name: Pull translations from Applanga
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
