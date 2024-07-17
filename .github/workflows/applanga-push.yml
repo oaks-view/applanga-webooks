@@ -19,14 +19,13 @@ jobs:
       - uses: actions/checkout@v3
         with:
           path: checkout
-      - uses: applanga/setup-applanga-cli@v1.0.2
+      - uses: applanga/setup-applanga-cli@AL-6517-cli-wildcard-versions
         with:
-          version: 1.0.75
+          version: '*'
       - name: Push Sources to Applanga
         if: '${{ inputs.push_targets != true }}'
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
-          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: applanga push --force
         working-directory: checkout
       - name: Push Translation Files to Applanga
