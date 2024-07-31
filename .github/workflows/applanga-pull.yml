@@ -8,12 +8,13 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
           path: checkout
-      - uses: applanga/setup-applanga-cli@AL-6517-cli-wildcard-versions
+      - uses: applanga/setup-applanga-cli@v1.0.3
         with:
           version: 1.0.*
       - name: Pull translations from Applanga
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
         run: applanga pull
         working-directory: checkout
       - name: Create Pull Request
