@@ -1,4 +1,9 @@
 {
-    "i_am_hot": "ich bin heiz",
-    "i am cold": "ich bin kalt"
+  "simple key": "einfach schlussel",
+  "clement": "verkleidet und verschwunden",
+  "another one": "wurde später hinzugefügt und ist perfekt",
+  "some+new+entry": "nur dieses Mal",
+  "another+entry": "Testen eines anderen Eintrags",
+  "after backup creation": "nach Erstellung der Sicherung",
+  "sleek": "nach Erstellung der Sicherung"
 }
