@@ -4,22 +4,22 @@
     "push": {
       "source": [
         {
-          "language": "en",
-          "file_format": "nested_json",
           "path": "./.react_json_sample/en/translations.json",
-          "tag": "app:language.json"
+          "file_format": "react_nested_json",
+          "tag": "app:language.json",
+          "language": "en"
         }
       ]
     },
     "pull": {
       "target": [
         {
+          "path": "./.react_json_sample/en/<language>.json",
+          "file_format": "react_nested_json",
+          "tag": "app:language.json",
           "exclude_languages": [
             "en"
-          ],
-          "file_format": "nested_json",
-          "path": "./.react_json_sample/en/<language>.json",
-          "tag": "app:language.json"
+          ]
         }
       ]
     }
