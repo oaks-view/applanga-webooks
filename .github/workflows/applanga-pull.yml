@@ -17,7 +17,7 @@ jobs:
         run: applanga pull
         working-directory: checkout
       - name: Create Pull Request
-        uses: applanga/pe-create-pull-request@AL-7799-undici-update
+        uses: applanga/pe-create-pull-request@main
         with:
           branch: newTranslations
           author: 'github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>'
