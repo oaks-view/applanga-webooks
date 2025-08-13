@@ -1,4 +1,103 @@
 {
-    "i_am_hot": "ich bin heiz",
-    "i am cold": "ich bin kalt"
+  "15": "Nummer",
+  "16": "Nummer",
+  "17": "Nummer",
+  "18": "Nummer",
+  "19": "Nummer",
+  "id": "Mietleben",
+  "title": "Mietleben",
+  "verse1": "Ich habe nie wirklich einen Ort gefunden, den ich zu Hause nenne.",
+  "chorus": "Nichts, was ich habe, ist wirklich meine",
+  "two": "Nummer",
+  "Sensational": "Wahre Gefühle und mehr",
+  "one": "Nummer",
+  "three": "Nummer",
+  "simplistic": "Kurze einfache Aussagen machen",
+  "with_description_key": "Dieser Schlüssel enthält eine Beschreibung in einigen Dateiformaten.",
+  "with_line_break_key": "Dieser Schlüssel hat einen Zeilenumbruch\ndarin.",
+  "nested_key": {
+    "level_one_a": {
+      "level_two": "Ein tief verschachtelter Schlüssel."
+    },
+    "level_one_b": "Ein verschachtelter Schlüssel."
+  },
+  "plural_key": {
+    "one": "Pluralschlüssel eins",
+    "other": "Mehrzweckschlüssel Sonstiges",
+    "zero": "Mehrschlüssel Null"
+  },
+  "array_key": [
+    "erster Eintrag",
+    "zweiter Eintrag",
+    "dritter Eintrag"
+  ],
+  "simple_key": "Grundlegende Übersetzung.",
+  "item3_desc": "Dieses erstaunliche Stück Zahntechnologie bringt den Spaß wieder ins Zähneputzen",
+  "prompt_email": "E-Mail",
+  "item2_title": "Elektrische Zahnbürste",
+  "item3_price": "129,99 €",
+  "buy": "Kaufen",
+  "back": "Zurück",
+  "item1_price": "1,99 €",
+  "title_activity_scrolling": "Angebotene Artikel",
+  "error_incorrect_password": "Dieses Passwort ist falsch",
+  "action_sign_in": "Anmelden oder registrieren",
+  "error_invalid_password": "Dieses Passwort ist zu kurz",
+  "error_field_required": "Dieses Feld ist ein Pflichtfeld",
+  "login_title": "Anmeldung",
+  "your_items": "Ihre Artikel",
+  "item3_title": "Elektrische Ultraschallzahnbürste",
+  "shopping_cart": "Warenkorb",
+  "item1_title": "Einfache Zahnbürste",
+  "item2_price": "29,99 €",
+  "settings": "Einstellungen",
+  "profile": "Profil",
+  "count": "Betrag:",
+  "pay": "Bezahlung",
+  "item2_desc": "Diese Zahnbürste verbessert das klassische Design und putzt Ihnen die Zähne.",
+  "item4_desc": "Einfach, aber wirksam beim Schutz Ihrer Zähne.",
+  "prompt_password": "Passwort (optional)",
+  "title_activity_shopping_cart": "Ihr Warenkorb",
+  "app_name": "BasicUsecaseDemo",
+  "error_invalid_email": "Diese E-Mail-Adresse ist ungültig",
+  "item4_title": "Zahnpasta",
+  "item1_desc": "Dieses klassische Design erfordert manuelle Arbeit, erledigt aber die Arbeit.",
+  "action_sign_in_short": "Anmelden",
+  "buy_message": "Vielen Dank für Ihr Geschäft!",
+  "item4_price": "0,99 €",
+  "halloo": "deutsch",
+  "wie gehts": "deutsch",
+  "genau": "deutsch",
+  "first": "eins",
+  "second": "gefälscht",
+  "third": "drittes Mal",
+  "Page_1": {
+    "iPhone_14_Pro_Max_-_3": {
+      "Frame_1": {
+        "Heading": {
+          "text": "WaldDStraße 101, 10011, Berlin - PH"
+        },
+        "text": {
+          "0": "Treffen Sie sich und verbinden Sie sich mit Ihrem im Frühlingsgeschmack ..."
+        }
+      },
+      "text": {
+        "0": "4.",
+        "1": "März 2023"
+      }
+    }
+  },
+  "four": "Nummer",
+  "five": "Nummer",
+  "six": "Nummer",
+  "seven": "Nummer",
+  "eight": "Nummer",
+  "nine": "Nummer",
+  "ten": "Nummer",
+  "eleven": "Nummer",
+  "twelve": "Nummer",
+  "thirteen": "Nummer",
+  "fourteen": "Nummer",
+  "twenty": "Nummer",
+  "clip": "Es gibt eine Zeit, in der jedes Leben vom Kurs abkommt, in diesem verzweifelten Moment müssen Sie Ihre Richtung wählen. Würden Sie kämpfen, um auf dem Weg zu bleiben? \nWürden andere Ihnen sagen, wer Sie sind?\nOder würden Sie mit Vertrauen vorankommen?"
 }
