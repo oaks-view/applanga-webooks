@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          ref: ${{ github.head_ref }}
+          ref: ${{ github.event.inputs.target_branch || github.event.repository.default_branch }}
           path: checkout
       - uses: applanga/setup-applanga-cli@v1.0.3
         with:
