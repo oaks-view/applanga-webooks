@@ -6,7 +6,7 @@
         {
           "path": "./.react_json_sample/en/translations.json",
           "file_format": "nested_json",
-          "tag": "app:language.json",
+          "tag": ["app:language.json"],
           "language": "en"
         }
       ]
