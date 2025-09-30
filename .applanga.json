@@ -10,18 +10,6 @@
           "language": "en"
         }
       ]
-    },
-    "pull": {
-      "target": [
-        {
-          "path": "./.react_json_sample/<language>/translations.json",
-          "file_format": "nested_json",
-          "tag": ["app:language.json"],
-          "exclude_languages": [
-            "en"
-          ]
-        }
-      ]
     }
   }
 }
