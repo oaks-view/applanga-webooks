@@ -6,8 +6,22 @@
         {
           "path": "./.react_json_sample/en/translations.json",
           "file_format": "nested_json",
-          "tag": ["app:language.json"],
+          "tag": "app:language.json",
           "language": "en"
         }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "path": "./.react_json_sample/en/<language>.json",
+          "file_format": "nested_json",
+          "tag": "app:language.json",
+          "exclude_languages": [
+            "en"
+          ]
+        }
+      ]
+    }
   }
 }
