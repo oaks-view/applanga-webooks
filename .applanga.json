@@ -8,6 +8,12 @@
           "file_format": "nested_json",
           "tag": "app:language.json",
           "language": "en"
+        },
+        {
+          "path": "./.react_json_sample/en-CA/translations.json",
+          "file_format": "nested_json",
+          "tag": "app:language.json",
+          "language": "en-CA"
         }
       ]
     },
