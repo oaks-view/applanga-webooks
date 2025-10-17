@@ -8,27 +8,13 @@
           "file_format": "nested_json",
           "tag": "app:language.json",
           "language": "en"
-        },
-        {
-          "path": "./.react_json_sample/en-CA/translations.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
-          "language": "en-CA"
         }
       ]
     },
     "pull": {
       "target": [
         {
-          "path": "./.react_json_sample/en/<language>.json",
-          "file_format": "nested_json",
-          "tag": "app:language.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./.react_json_sample/en/<language>.json",
+          "path": "./.react_json_sample/en/es.json",
           "file_format": "nested_json",
           "tag": "app:language.json",
           "exclude_languages": [
