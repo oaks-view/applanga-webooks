@@ -4,7 +4,6 @@ on:
     branches:
       - master
     paths:
-      - .react_json_sample/en/fr.json
       - .react_json_sample/en/translations.json
   workflow_dispatch:
     inputs:
