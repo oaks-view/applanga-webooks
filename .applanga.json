@@ -6,7 +6,7 @@
         {
           "path": "./.react_json_sample/en/translations.json",
           "file_format": "react_nested_json",
-          "tag": "app:language:7952.json",
+          "tag": "products",
           "language": "en"
         }
       ]
@@ -16,7 +16,7 @@
         {
           "path": "./.react_json_sample/<language>/translations.json",
           "file_format": "react_nested_json",
-          "tag": "app:language:7952.json",
+          "tag": "products",
           "exclude_languages": [
             "en"
           ]
