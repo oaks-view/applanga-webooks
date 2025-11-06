@@ -5,8 +5,8 @@
       "source": [
         {
           "path": "./.react_json_sample/en/translations.json",
-          "file_format": "react_nested_json",
-          "tag": "limit",
+          "file_format": "nested_json",
+          "tag": "app:language.json",
           "language": "en"
         }
       ]
@@ -14,9 +14,9 @@
     "pull": {
       "target": [
         {
-          "path": "./.react_json_sample/<language>/translations.json",
-          "file_format": "react_nested_json",
-          "tag": "limit",
+          "path": "./.react_json_sample/en/<language>.json",
+          "file_format": "nested_json",
+          "tag": "app:language.json",
           "exclude_languages": [
             "en"
           ]
