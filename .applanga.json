@@ -4,8 +4,26 @@
     "push": {
       "source": [
         {
+          "path": "./.react_json_sample/en/es.json",
+          "file_format": "angular_translate_json",
+          "tag": "app:language:9867.json",
+          "language": "en"
+        },
+        {
+          "path": "./.react_json_sample/en/fr.json",
+          "file_format": "angular_translate_json",
+          "tag": "app:language:8319.json",
+          "language": "en"
+        },
+        {
+          "path": "./.react_json_sample/en/pt.json",
+          "file_format": "angular_translate_json",
+          "tag": "app:language:8496.json",
+          "language": "en"
+        },
+        {
           "path": "./.react_json_sample/en/translations.json",
-          "file_format": "nested_json",
+          "file_format": "angular_translate_json",
           "tag": "app:language.json",
           "language": "en"
         }
@@ -15,7 +33,31 @@
       "target": [
         {
           "path": "./.react_json_sample/en/<language>.json",
-          "file_format": "nested_json",
+          "file_format": "angular_translate_json",
+          "tag": "app:language:9867.json",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./.react_json_sample/en/<language>.json",
+          "file_format": "angular_translate_json",
+          "tag": "app:language:8319.json",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./.react_json_sample/en/<language>.json",
+          "file_format": "angular_translate_json",
+          "tag": "app:language:8496.json",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./.react_json_sample/en/<language>.json",
+          "file_format": "angular_translate_json",
           "tag": "app:language.json",
           "exclude_languages": [
             "en"
