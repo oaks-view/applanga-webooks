@@ -1,12 +1,218 @@
 {
-  "simple key": "clip",
-  "clement": "vêtu et disparu",
-  "another one": "cela a été ajouté plus tard et c’est parfait",
-  "some+new+entry": "cette fois-ci",
-  "another+entry": "tester une autre entrée",
-  "after backup creation": "après la création de la sauvegarde",
-  "sleek": "après la création de la sauvegarde",
-  "Page 3280694829 - Action 1358710565 - Property 1295455071": "Afficher le texte du rappel dans toutes les autres langues configurées pour les rappels.",
-  "Table 1909723412 - Property 2879900210": "Traduction des termes du rappel",
-  "Table 1909723412 - Field 1840439778 - Property 2879900210": "Code des conditions de rappel"
+  "simple key": {
+    "message": "clip"
+  },
+  "clement": {
+    "message": "vêtu et parti"
+  },
+  "another one": {
+    "message": "cela a été ajouté plus tard et c’est parfait"
+  },
+  "some+new+entry": {
+    "message": "cette fois-ci"
+  },
+  "another+entry": {
+    "message": "tester une autre entrée"
+  },
+  "after backup creation": {
+    "message": "après la création de la sauvegarde"
+  },
+  "sleek": {
+    "message": "après la création de la sauvegarde"
+  },
+  "demo_key": {
+    "message": "Bonjour monde"
+  },
+  "link1": {
+    "message": "lien"
+  },
+  "link2": {
+    "message": "lien"
+  },
+  "link3": {
+    "message": "lien"
+  },
+  "simmer": {
+    "message": "essayez-le encore une fois"
+  },
+  "changes": {
+    "message": "adopter avec les deux mains"
+  },
+  "Table 2681651900 - Field 883711285 - Property 2879900210": {
+    "message": "N° d’entrée"
+  },
+  "Table 2681651900 - Field 3948098573 - Property 2879900210": {
+    "message": "Nbre de rappels"
+  },
+  "Table 2681651900 - Field 3710982960 - Property 2879900210": {
+    "message": "Date d’enregistrement"
+  },
+  "Table 2681651900 - Field 580412389 - Property 2879900210": {
+    "message": "Date du document"
+  },
+  "Table 2681651900 - Field 4085727052 - Property 2879900210": {
+    "message": "Date d’échéance"
+  },
+  "Table 2681651900 - Field 2363328873 - Property 2879900210": {
+    "message": "Type de document"
+  },
+  "Table 2681651900 - Field 486908828 - Property 2879900210": {
+    "message": "N° de document"
+  },
+  "Table 2681651900 - Field 3461834954 - Property 2879900210": {
+    "message": "Description"
+  },
+  "Table 2681651900 - Field 1077555671 - Property 2879900210": {
+    "message": "Montant initial"
+  },
+  "Table 2681651900 - Field 2975378708 - Property 2879900210": {
+    "message": "Montant restant"
+  },
+  "Table 2681651900 - Field 4200184881 - Property 2879900210": {
+    "message": "Non."
+  },
+  "Table 2681651900 - Field 636392376 - Property 2879900210": {
+    "message": "Montant"
+  },
+  "Table 2681651900 - Field 1213267064 - Property 2879900210": {
+    "message": "Taux d’intérêt"
+  },
+  "Table 2681651900 - Field 2139693550 - Property 2879900210": {
+    "message": "Prod. gén. Groupe d’enregistrement"
+  },
+  "Table 2681651900 - Field 1246077090 - Property 2879900210": {
+    "message": " % TVA"
+  },
+  "Table 2681651900 - Field 2971014054 - Property 2879900210": {
+    "message": "Type de calcul de la TVA"
+  },
+  "Table 2681651900 - Field 1108276017 - Property 2879900210": {
+    "message": "Montant de la TVA"
+  },
+  "Table 2681651900 - Field 2552458873 - Property 2879900210": {
+    "message": "Code de groupe fiscal"
+  },
+  "Table 2681651900 - Field 236064653 - Property 2879900210": {
+    "message": "Prod. TVA Groupe d’enregistrement"
+  },
+  "Table 2681651900 - Field 2534656220 - Property 2879900210": {
+    "message": "Identifiant TVA"
+  },
+  "Table 2681651900 - Field 158172202 - Property 2879900210": {
+    "message": "Type de ligne"
+  },
+  "Table 2681651900 - Field 158172202 - Property 62802879": {
+    "message": "Ligne de rappel, Non dû, Texte de début, Texte de fin, Arrondissement, En attente, Frais supplémentaires, Frais de ligne"
+  },
+  "Table 2681651900 - Field 2162283589 - Property 2879900210": {
+    "message": "Code de clause TVA"
+  },
+  "Table 2681651900 - Field 400684573 - Property 2879900210": {
+    "message": "S’applique au type de document"
+  },
+  "Table 2681651900 - Field 677070472 - Property 2879900210": {
+    "message": "S’applique au document n°"
+  },
+  "Table 2681651900 - Field 1746606869 - Property 2879900210": {
+    "message": "Saisie détaillée des taux d’intérêt"
+  },
+  "Table 2681651900 - Field 2283884360 - Property 2879900210": {
+    "message": "Entrée créée par le système"
+  },
+  "Table 2681651900 - NamedType 4094643921": {
+    "message": "Le %1 sur le %2 et le %3 doivent être identiques."
+  },
+  "Table 2681651900 - NamedType 1984498423": {
+    "message": "%1 doit être %2 ou %3."
+  },
+  "Table 2681651900 - NamedType 3593856238": {
+    "message": "Il n'y a pas de %1 ouvert avec %2 %3."
+  },
+  "Table 2681651900 - NamedType 3459220650": {
+    "message": "%1 %2 dans %3 n'est pas en retard."
+  },
+  "Table 2681651900 - NamedType 659963034": {
+    "message": "Les frais de ligne pour %1 %2 au niveau de rappel %3 ont déjà été émis."
+  },
+  "Table 2681651900 - NamedType 885110970": {
+    "message": "%1 doit être positif."
+  },
+  "Table 2681651900 - NamedType 2618258002": {
+    "message": "Il n’y a pas assez d’espace pour insérer des lignes avec des taux d’intérêt supplémentaires."
+  },
+  "Table 2681651900 - NamedType 2800588376": {
+    "message": "Créer un taux d’intérêt avec une date de début antérieure à %1."
+  },
+  "Table 3280694829 - Property 2879900210": {
+    "message": "Conditions de rappel"
+  },
+  "Table 3280694829 - Field 3004954119 - Property 2879900210": {
+    "message": "Code"
+  },
+  "Table 3280694829 - Field 3461834954 - Property 2879900210": {
+    "message": "Description"
+  },
+  "Table 3280694829 - Field 2757499274 - Property 2879900210": {
+    "message": "Publier l’intérêt"
+  },
+  "Table 3280694829 - Field 3274756825 - Property 2879900210": {
+    "message": "Enregistrer les frais supplémentaires"
+  },
+  "Table 3280694829 - Field 55421187 - Property 2879900210": {
+    "message": "Max. Nbre de rappels"
+  },
+  "Table 3280694829 - Field 650382431 - Property 2879900210": {
+    "message": "Montant minimum (LCY)"
+  },
+  "Table 3280694829 - Field 3410685676 - Property 2879900210": {
+    "message": "Publier l’ajout. Frais par ligne"
+  },
+  "Table 3280694829 - Field 2009106446 - Property 2879900210": {
+    "message": "Remarque sur les frais de ligne dans le rapport"
+  },
+  "Page 3280694829 - Property 2879900210": {
+    "message": "Conditions de rappel"
+  },
+  "Page 3280694829 - Control 3004954119 - Property 1295455071": {
+    "message": "Spécifie un code pour identifier cet ensemble de termes de rappel."
+  },
+  "Page 3280694829 - Control 3461834954 - Property 1295455071": {
+    "message": "Spécifie une description des termes du rappel."
+  },
+  "Page 3280694829 - Control 55421187 - Property 1295455071": {
+    "message": "Spécifie le nombre maximum de rappels pouvant être créés pour une facture."
+  },
+  "Page 3280694829 - Control 2757499274 - Property 1295455071": {
+    "message": "Indique si un intérêt répertorié sur le rappel doit être enregistré ou non dans le grand livre et les comptes clients."
+  },
+  "Page 3280694829 - Control 3274756825 - Property 1295455071": {
+    "message": "Spécifie si des frais supplémentaires énumérés sur le rappel doivent être enregistrés ou non dans le grand livre général et les comptes clients."
+  },
+  "Page 3280694829 - Control 3410685676 - Property 1295455071": {
+    "message": "Spécifie si des frais supplémentaires énumérés sur la note de frais financiers doivent être enregistrés ou non dans le grand livre général et les comptes clients lorsque la note est émise."
+  },
+  "Page 3280694829 - Control 650382431 - Property 1295455071": {
+    "message": "Spécifie le montant minimum pour lequel un rappel sera créé."
+  },
+  "Page 3280694829 - Control 2009106446 - Property 1295455071": {
+    "message": "Spécifie que toutes les notes concernant les frais de ligne seront ajoutées au rappel."
+  },
+  "Page 3280694829 - Action 2050659749 - Property 2879900210": {
+    "message": "&Niveaux"
+  },
+  "Page 3280694829 - Action 2050659749 - Property 1295455071": {
+    "message": "Affichez les niveaux de rappel utilisés pour définir quand les rappels peuvent être créés et quels frais et textes ils doivent inclure."
+  },
+  "Page 3280694829 - Action 1358710565 - Property 2879900210": {
+    "message": "Traduction"
+  },
+  "Page 3280694829 - Action 1358710565 - Property 1295455071": {
+    "message": "Afficher le texte du rappel dans toutes les autres langues configurées pour les rappels."
+  },
+  "Table 1909723412 - Property 2879900210": {
+    "message": "Traduction des termes de rappel"
+  },
+  "Table 1909723412 - Field 1840439778 - Property 2879900210": {
+    "message": "Code des termes du rappel"
+  }
 }
