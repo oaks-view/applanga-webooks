@@ -49,7 +49,7 @@ jobs:
           else
             echo "No .applanga.json found in '${REF_BRANCH}', leaving existing file (if any) unchanged."
           fi
-      - uses: applanga/setup-applanga-cli@v1.0.3
+      - uses: applanga/setup-applanga-cli@v1.0.4
         with:
           version: 1.0.*
       - name: Pull translations from Applanga
