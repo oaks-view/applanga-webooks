@@ -6,7 +6,7 @@
         {
           "path": "./.react_json_sample/en/translations.json",
           "file_format": "angular_translate_json",
-          "tag": "app:language:9819.json",
+          "tag": "limitless",
           "language": "en"
         }
       ]
@@ -16,7 +16,7 @@
         {
           "path": "./.react_json_sample/en/<language>.json",
           "file_format": "angular_translate_json",
-          "tag": "app:language:9819.json",
+          "tag": "limitless",
           "exclude_languages": [
             "en"
           ]
