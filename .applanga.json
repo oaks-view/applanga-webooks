@@ -34,7 +34,7 @@
           ]
         },
         {
-          "path": "./.react_json_sample/en/<language>.json",
+          "path": "./.react_json_sample/locales/<language>.json",
           "file_format": "angular_translate_json",
           "tag": "app:language:6770.json",
           "exclude_languages": [
@@ -42,7 +42,7 @@
           ]
         },
         {
-          "path": "./.react_json_sample/en/<language>.json",
+          "path": "./.react_json_sample/translations/check/<language>.json",
           "file_format": "angular_translate_json",
           "tag": "app:language.json",
           "exclude_languages": [
