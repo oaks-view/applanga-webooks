@@ -10,10 +10,6 @@ on:
         description: Title for the pull request
         required: false
         default: Updated translations
-      languages:
-        description: Languages whose entries will be pulled
-        required: false
-        default: ''
       commit_message:
         description: Commit message for the PR
         required: false
@@ -63,7 +59,7 @@ jobs:
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
           APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
-        run: 'applanga --debug pull ${{ github.event.inputs.tags }} ${{ github.event.inputs.languages }}'
+        run: 'applanga --debug pull ${{ github.event.inputs.tags }}'
         working-directory: checkout
       - name: Cleanup .applanga.json override
         if: env.APPLANGA_JSON_WAS_CREATED_OR_MODIFIED == 'true'
