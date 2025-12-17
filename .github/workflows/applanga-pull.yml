@@ -10,6 +10,10 @@ on:
         description: Title for the pull request
         required: false
         default: Updated translations
+      languages:
+        description: Languages whose entries will be pulled
+        required: false
+        default: ''
       commit_message:
         description: Commit message for the PR
         required: false
@@ -25,6 +29,9 @@ on:
 jobs:
   pull-translation-in:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     env:
       TARGET_BRANCH: ${{ github.event.inputs.target_branch || github.ref_name }}
       REF_BRANCH: ${{ github.ref_name }}
@@ -55,7 +62,8 @@ jobs:
       - name: Pull translations from Applanga
         env:
           APPLANGA_ACCESS_TOKEN: ${{ secrets.APPLANGA_ACCESS_TOKEN }}
-        run: 'applanga --debug pull ${{ github.event.inputs.tags }}'
+          APPLANGA_API_HOST: ${{ secrets.APPLANGA_API_HOST }}
+        run: 'applanga --debug pull ${{ github.event.inputs.tags }} ${{ github.event.inputs.languages }}'
         working-directory: checkout
       - name: Cleanup .applanga.json override
         if: env.APPLANGA_JSON_WAS_CREATED_OR_MODIFIED == 'true'
