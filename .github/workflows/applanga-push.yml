@@ -15,8 +15,6 @@ on:
 jobs:
   push-sources-for-translation:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
       - uses: actions/checkout@v3
         with:
