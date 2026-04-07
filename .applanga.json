@@ -4,24 +4,6 @@
     "push": {
       "source": [
         {
-          "path": "./.react_json_sample/en/de.json",
-          "file_format": "nested_json",
-          "tag": "app:language:1689.json",
-          "language": "en"
-        },
-        {
-          "path": "./.react_json_sample/en/es.json",
-          "file_format": "nested_json",
-          "tag": "app:language:3847.json",
-          "language": "en"
-        },
-        {
-          "path": "./.react_json_sample/en/fr.json",
-          "file_format": "nested_json",
-          "tag": "app:language:7029.json",
-          "language": "en"
-        },
-        {
           "path": "./.react_json_sample/en/translations.json",
           "file_format": "nested_json",
           "tag": "app:language.json",
@@ -31,30 +13,6 @@
     },
     "pull": {
       "target": [
-        {
-          "path": "./.react_json_sample/en/<language>.json",
-          "file_format": "nested_json",
-          "tag": "app:language:1689.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./.react_json_sample/en/<language>.json",
-          "file_format": "nested_json",
-          "tag": "app:language:3847.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
-        {
-          "path": "./.react_json_sample/en/<language>.json",
-          "file_format": "nested_json",
-          "tag": "app:language:7029.json",
-          "exclude_languages": [
-            "en"
-          ]
-        },
         {
           "path": "./.react_json_sample/en/<language>.json",
           "file_format": "nested_json",
