@@ -4,6 +4,24 @@
     "push": {
       "source": [
         {
+          "path": "./.react_json_sample/en/es.json",
+          "file_format": "nested_json",
+          "tag": "tag-test",
+          "language": "en"
+        },
+        {
+          "path": "./.react_json_sample/en/fr.json",
+          "file_format": "nested_json",
+          "tag": "tag-test-2",
+          "language": "en"
+        },
+        {
+          "path": "./.react_json_sample/en/it.json",
+          "file_format": "nested_json",
+          "tag": "tag-test-3",
+          "language": "en"
+        },
+        {
           "path": "./.react_json_sample/en/translations.json",
           "file_format": "nested_json",
           "tag": "app:language.json",
@@ -13,6 +31,30 @@
     },
     "pull": {
       "target": [
+        {
+          "path": "./.react_json_sample/en/<language>.json",
+          "file_format": "nested_json",
+          "tag": "tag-test",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./.react_json_sample/en/<language>.json",
+          "file_format": "nested_json",
+          "tag": "tag-test-2",
+          "exclude_languages": [
+            "en"
+          ]
+        },
+        {
+          "path": "./.react_json_sample/en/<language>.json",
+          "file_format": "nested_json",
+          "tag": "tag-test-3",
+          "exclude_languages": [
+            "en"
+          ]
+        },
         {
           "path": "./.react_json_sample/en/<language>.json",
           "file_format": "nested_json",
